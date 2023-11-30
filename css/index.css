@@ -19,6 +19,10 @@
     font-family: "light";
     src: url("../fonts/BarlowSemiCondensed-Light.ttf");
 }
+@font-face {
+    font-family: "normal-light";
+    src: url("../fonts/BarlowSemiCondensed-Regular.ttf");
+}
 /* li:first-child{
     position: absolute;
     left: 10px;
@@ -33,15 +37,34 @@ html,body{
 
 .nav-last{
     position: absolute;
-    right: 10px;
-    bottom: 10px;
+    right: 15px;
+    bottom: 2px;
 }
 
 li{
     font-weight: bold;
+    font-size: 16px;
+}
+.firstli{
+    padding-top: 6px;
 }
 button{
     font-weight: bold !important;
+}
+
+.buynow{
+    /* margin: 0; */
+    font-size: 18px;
+    height: 50px ;
+    width: 140px;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.navbar{
+    height: 70px;
 }
 
 /* !-------------------------------------------- Section-1 ----------------------------------------------------- */
@@ -56,9 +79,21 @@ button{
     min-height: 800px;
 }
 
+
 .small-heading{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.extra-small-heading{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.hero-small-heading{
     font-family: "bolder";
-    font-size: 20px;
+    font-size: 24px;
 }
 .heading{
     font-family: "bolder";
@@ -68,6 +103,12 @@ button{
     font-family: "light";
     font-weight: 500;
     width: 100%;
+}
+.hero-description{
+    font-family: "normal-light";
+    font-weight: 500;
+    width: 100%;
+    font-size: 24px;
 }
 .address{
     width: 50%;
@@ -166,7 +207,9 @@ button{
 .collectionCard{
     transition: all 0.5s;
 }
-
+.collectionCard-1{
+    max-height: 610px;
+}
 
 .button-hover-hidden-1,.button-hover-hidden-2{
     width: 120px;
@@ -197,7 +240,19 @@ button{
     transform: translateY(-30px);
     opacity: 1;
 }
-
+.card-desc{
+    height: 100%;
+    max-height: 265px;
+    /* padding-top: 4rem!important;
+    padding-bottom: 4rem!important;  */
+    background-color: rgb(231, 224, 224);
+}
+.card-text-{
+    /* min-height: 300px; */
+    /* height: 200px; */
+    /* padding: 3rem 2rem 2rem 2rem;  */
+    background-color: rgb(231, 224, 224);
+}
 
 /* !-------------------------------------------- Section-3 ----------------------------------------------------- */
 
@@ -211,8 +266,11 @@ button{
 }
 .desc-size{
     width: 75%;
+    font-size: 20px;
 }
-
+.element-heading{
+    width: 70%;
+}
 .elementCard-1-bg{
     background-image: url("../Images/background355.jpg");
     background-repeat: no-repeat;
@@ -248,6 +306,17 @@ button{
     height: fit-content;
     min-height: 400px;
     background-color: rgb(201, 213, 201);
+}
+.quality-heading{
+    font-family: "bolder";
+    font-size: 24px;
+}
+.quality-small-heading{
+    font-family: "bolder";
+    font-size: 20px;
+}
+.quality-desc{
+    font-size: 20px;
 }
 
 /* !-------------------------------------------- Section-6 ----------------------------------------------------- */
@@ -290,9 +359,17 @@ button{
     .address{
         width: 100%;
     }
+    .card-text-{
+        padding: 2rem 1rem 1rem 2rem; 
+        background-color: rgb(231, 224, 224);
+    }
 }
 
 @media screen and (max-width:768px) {
+    .collectionCard-1{
+        /* max-height: 610px; */
+        max-height: fit-content;
+    }
     .desc-size{
         width: 100%;
         font-size: 16px;
