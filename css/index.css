@@ -180,7 +180,14 @@ button{
     bottom: 0px;
     transition: all 0.5s;
     opacity: 0;
-
+}
+.collectionCard-Heading-line-1,.collectionCard-Heading-line-2{
+    transition: all 0.5s;
+}
+.collectionCard-1:hover .collectionCard-Heading-line-1,.collectionCard-2:hover .collectionCard-Heading-line-2{
+    width: 70%;
+    height: 1px;
+    background-color: rgb(211, 173, 104);
 }
 
 .button-hover-hidden-1:hover,.button-hover-hidden-2:hover{
