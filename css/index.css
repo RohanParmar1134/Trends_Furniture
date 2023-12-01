@@ -433,4 +433,7 @@ button{
     .description{
         font-size: 14px;
     }
+    .element-heading{
+        width: 100%;
+    }
 }
