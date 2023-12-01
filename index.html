@@ -27,7 +27,7 @@
             </button>
 
             <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ">
+                <ul class="navbar-nav g-0">
                     <li class="nav-item">
                         <div class="container-fluid">
                         </div>
@@ -70,12 +70,12 @@
         </div>
     </nav>
 
-    <div id="section1" class="container-fluid g-0 row section-1 px-3 py-5 px-md-5 d-flex align-items-center">
-        <div class="col-lg-8 text-center text-md-start">
+    <div id="section1" class=" section-1 d-flex align-items-center">
+        <div class="container p-5 d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
 
-            <p class="small-heading">May-2019</p>
-            <p class="heading">Lorem ipsum dolor sit amet</p>
-            <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi, deleniti
+            <p class="small-heading hero-small-heading fw-bold">May-2019</p>
+            <p class="heading fw-bold">Lorem ipsum dolor sit amet</p>
+            <p class="hero-description fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi, deleniti
                 maxime modi reiciendis inventore porro architecto voluptas mollitia optio, quisquam officia aut a
                 consectetur voluptatem labore, iusto odio expedita nemo eius. At recusandae, soluta quasi deserunt
                 reiciendis animi nisi officia hic ullam vero facere cupiditate doloremque voluptatibus vitae id, ratione
@@ -84,7 +84,7 @@
             <div class="container-fluid g-0 address row">
                 <div class="container g-0 col-md-6">
                     <div class="divider"></div>
-                    <p class="hero-small-heading">London, UK</p>
+                    <p class="hero-small-heading fw-bold">London, UK</p>
                     <p>Chestnut Street 22, 163</p>
                 </div>
                 <div class="container g-0 ps-md-3 col-md-6">
@@ -96,177 +96,199 @@
         </div>
     </div>
 
-    <div id="section2" class="designCollection w-100 container-fluid px-3 py-5 px-md-5 row ">
-        <div class="container g-0 m-0 pe-lg-3 col-lg-6">
-            <div class="p-5 m-0 sec-2-description text-center text-md-start">
-                <p class="extra-small-heading">INTERIOR DESIGN COLLECTION</p>
-                <p class="medium-heading">Lorem ipsum dolor sit amet</p>
-                <p class="card-description w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut
+    
+    <div class="container-fluid">
+        <div id="section2" class="designCollection container py-5 ">
+            <div class="row g-0">
+                <div class="container g-0 m-0 pe-lg-3 col-lg-6">
+                    <div class="p-5 m-0 sec-2-description text-center text-md-start">
+                        <p class="extra-small-heading">INTERIOR DESIGN COLLECTION</p>
+                        <p class="medium-heading">Lorem ipsum dolor sit amet</p>
+                <p class="small-heading fw-medium  w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut
                     explicabo molestias doloremque consequuntur fugit nemo quisquam est, officia vel, cum corrupti nobis
                     saepe, at iure ipsa ratione repellat repudiandae.</p>
-                <button class="button-hover-black">Shop Now <span><i
-                            class="fa-solid fa-angle-right"></i></span></button>
+                    <button class="button-hover-black">Shop Now <span><i
+                        class="fa-solid fa-angle-right"></i></span></button>
+                    </div>
+                </div>
+        <div class="container g-0 ps-lg-3 gy-5 gy-lg-0  col-lg-6 row">
+            <div class="bg-light collectionCard-1 position-relative me-md-3 col-md">
+                <!-- <div class=""> -->
+                    <img src="Images/0156.jpg" class=" w-100 img-fluid cardImg-Sec2" alt="#" srcset="">
+                    <button class="button-hover-hidden">Read More</button>
+                <!-- </div> -->
+                <div class="card-text- m-0" >
+                    <p class="fw-bold hover-underline-animation  small-heading ">Designer Chair</p>
+                    <p class="card-desc mb-1">Modern and comfortable chair</p>
+                    <p class="fw-bold small-heading">from $ 135.00</p>
+                </div>
             </div>
-        </div>
-        <div class="container gx-0 ps-lg-3 gy-5 gy-lg-0  col-lg-6 row">
-            <div class="bg-light collectionCard-1 pe-sm-0 pe-md-3 pe-lg-3  col-md-6">
-                <div class="position-relative">
-                    <img src="Images/0156.jpg" class="w-100" alt="#" srcset="">
-                    <button class="button-hover-hidden-1">Read More</button>
-                </div>
-                <div class="row p-5 card-text- m-0">
-                    <p class="small-heading">Designer Chair</p>
-                    <p class="collectionCard-Heading-line-1"></p>
-                    <p class="card-desc">Modern and comfortable chair</p>
-                    <p class="small-heading">from $ 135.00</p>
-                </div>
-            </div>
-            <div class="bg-light collectionCard-2 ps-sm-0 ps-md-3 ps-lg-3 col-md-6">
-                <div class="position-relative">
-                    <img src="Images/0257.jpg" class="w-100" alt="#" srcset="">
-                    <button class="button-hover-hidden-2">Read More</button>
-                </div>
-                <div class="row p-5 card-text- m-0">
-                    <p class="small-heading">Bedside Tabel</p>
-                    <p class="collectionCard-Heading-line-2"></p>
-                    <p class="card-description">Nice and compact table</p>
-                    <p class="small-heading">from $ 89.00</p>
+            <div class="bg-light collectionCard-2 position-relative ms-md-3 col-md">
+                    <img src="Images/0257.jpg" class=" w-100 img-fluid cardImg-Sec2"  alt="#" srcset="">
+                    <button class="button-hover-hidden">Read More</button>
+                <div class="card-text- img-fluid m-0">
+                    <p class="fw-bold hover-underline-animation small-heading">Bedside Tabel</p>
+                    <p class="card-desc mb-1">Nice and compact table</p>
+                    <p class="fw-bold small-heading">from $ 89.00</p>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+</div>
 
-    <div id="section3" class="interiorElement px-3 py-5 px-md-5 g-0 container-fluid row">
-        <div class="col-lg-6 elementCard-1 gy-5 gy-lg-0 pe-lg-3">
-            <!-- <img src="Images/background355.jpg" class="w-100 pe-lg-3" alt="#"> -->
-            <div class="elementCard-1-bg text-center text-white text-md-start p-5">
-                <p class="small-heading mt-5">DECORATIVE INTERIOR ELEMENTS</p>
-                <p class="medium-heading element-heading">Lorem ipsum dolor sit amet</p>
-                <p class="card-description desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                    voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
-                    praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi
-                </p>
-                <button class="button-hover">Shop Now <span><i class="fa-solid fa-angle-right"></i></span></button>
+    <div id="section3" class="interiorElement py-5 container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 elementCard-1 gy-5 gy-lg-0 pe-lg-3">
+                    <div class="elementCard-1-bg text-center text-white text-md-start p-5">
+                        <p class="small-heading element-medium-heading mt-5">DECORATIVE INTERIOR ELEMENTS</p>
+                        <p class="medium-heading element-heading">Lorem ipsum dolor sit amet</p>
+                        <p class="hero-description fs-4 desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                            voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
+                            praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi
+                        </p>
+                        <button class="button-hover">Shop Now <span><i class="fa-solid fa-angle-right"></i></span></button>
+                    </div>
+        
+                </div>
+                <div class="col-lg-6 elementCard-2 gy-5 gy-lg-0 ps-lg-3">
+                    <!-- <img src="Images/background1.jpg" class="w-100 ps-lg-3" alt="#"> -->
+                    <div class="elementCard-2-bg text-center text-md-start p-5">
+                        <p class="small-heading element-medium-heading mt-5">INTERIOR DESIGN COLLECTION</p>
+                        <p class="medium-heading element-heading">Lorem ipsum dolor sit amet</p>
+                        <p class="hero-description fs-4 desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                            voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
+                            praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi
+                        </p>
+                        <button class="button-hover">Shop Now <span><i class="fa-solid fa-angle-right"></i></span></button>
+                    </div>
+                </div>
             </div>
-
         </div>
-        <div class="col-lg-6 elementCard-2 gy-5 gy-lg-0 ps-lg-3">
-            <!-- <img src="Images/background1.jpg" class="w-100 ps-lg-3" alt="#"> -->
-            <div class="elementCard-2-bg text-center text-md-start p-5">
-                <p class="small-heading mt-5">INTERIOR DESIGN COLLECTION</p>
-                <p class="medium-heading element-heading">Lorem ipsum dolor sit amet</p>
-                <p class="card-description desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                    voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
-                    praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi
-                </p>
-                <button class="button-hover">Shop Now <span><i class="fa-solid fa-angle-right"></i></span></button>
-            </div>
-        </div>
+        
     </div>
-    <div id="section4" class="services g-0 container-fluid justify-content-center px-3 py-5 px-md-5 row">
-        <div class="container w-75 row">
-            <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
-                <i class="fs-2 pb-3 fa-solid fa-truck-fast"></i>
-                <p>Free shipping</p>
-                <p>Free shipping any orders</p>
-                <button class="button-hover">Read More<span><i class="fa-solid fa-angle-right"></i></span></button>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 gy-5 gy-md-0 d-flex flex-column align-items-center">
-                <i class="fs-2 pb-3 fa-solid fa-rotate-left"></i>
-                <p>Free returns</p>
-                <p>30 days free returns</p>
-                <button class="button-hover">Read More<span><i class="fa-solid fa-angle-right"></i></span></button>
-            </div>
-            <div class="col-sm-12 col-lg-4  gy-5 gy-lg-0 d-flex flex-column align-items-center">
-                <i class="fs-2 pb-3 fa-solid fa-hand-holding-dollar"></i>
-                <p>Secured payments</p>
-                <p>We accept all cards</p>
-                <button class="button-hover">Read More<span><i class="fa-solid fa-angle-right"></i></span></button>
-            </div>
-        </div>
-    </div>
-    <div id="section5" class="qualitySection container-fluid row g-0 px-3 py-5 px-md-5">
-        <div class=" col-md-6">
-            <p class="small-heading quality-heading mt-5">Great Quality!</p>
-            <p class="card-description quality-desc desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
-                praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi? Illo
-                reprehenderit dicta dignissimos, deleniti voluptates suscipit! Facilis consequuntur blanditiis omnis
-                itaque ut deleniti!</p>
-            <p class="small-heading quality-small-heading">Adam Cross</p>
-            <p class="card-description">France</p>
-        </div>
-        <div class=" col-md-6">
-            <p class="small-heading quality-heading mt-5">Great Quality!</p>
-            <p class="card-description quality-desc desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
-                praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi? Illo
-                reprehenderit dicta dignissimos, deleniti voluptates suscipit! Facilis consequuntur blanditiis omnis
-                itaque ut deleniti!</p>
-            <p class="small-heading quality-small-heading">Susan Crossman</p>
-            <p class="card-description">Staten Island</p>
-        </div>
-    </div>
-    <div id="section6" class="clients container-fluid px-3 py-5 px-md-5 justify-content-center">
-        <p class="heading text-center">Our Clients</p>
-        <div class="row imgRow">
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/159.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/260.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/361.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/462.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/563.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/159.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/260.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/361.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/462.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/563.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/159.png" alt="">
-            </div>
-            <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/260.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div id="section7" class="footer container-fluid bg-dark text-white px-3 py-5 px-md-5 g-0 row">
-        <div class="mt-3 text-center text-md-start col-md-6  col-lg-3">
-            <p class="small-heading fw-bold">Contact Info</p>
-            <p class="description fw-bold">Phone: +1 (0) 000 0000 001</p>
-            <p class="description fw-bold">Address: Street Name, 33</p>
-            <p class="description fw-bold">City, AA 09999, Country</p>
-        </div>
-        <div class="mt-3 text-center text-md-start col-md-6  col-lg-3">
-            <p class="small-heading fw-bold">Get Help</p>
-            <p class="description fw-bold">Delivery Information</p>
-            <p class="description fw-bold">Sale Terms & Conditions</p>
-            <p class="description fw-bold">Returns & Refunds</p>
-            <p class="description fw-bold">Privacy Notice</p>
-            <p class="description fw-bold">Shopping FAQ</p>
-        </div>
-        <div class="mt-3 text-center text-md-start col-md-6  col-lg-3">
-            <p class="small-heading fw-bold">Product Categories</p>
-            <p class="description fw-bold">Accessories</p>
-            <p class="description fw-bold">Furniture</p>
-            <p class="description fw-bold">Interior Details</p>
-            <p class="description fw-bold">Decor Elements</p>
-            <p class="description fw-bold">Design Solutions</p>
-        </div>
-        <div class="mt-3 text-center text-md-start  col-md-6  col-lg-3">
-            <p class="small-heading">Let's stay in touch</p>
+    <div id="section4" class="services container-fluid py-5">
+        <div class="container">
             <div class="row g-0">
-                <input class="footerInput col-md-12 px-4 col-lg-6" type="email" placeholder="Your Email">
-                <button class="footerButton mx-auto mx-md-0 mt-3 mt-md-0 col-6 col-lg-6">Subscribe</button>
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column align-items-center">
+                    <i class="fs-2 pb-3 fa-solid fa-truck-fast"></i>
+                    <p class="fw-bolder fs-5">Free shipping</p>
+                    <p>Free shipping any orders</p>
+                    <button class="button-hover">Read More<span><i class="fa-solid fa-angle-right"></i></span></button>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 gy-5 gy-md-0 d-flex flex-column align-items-center">
+                    <i class="fs-2 pb-3 fa-solid fa-rotate-left"></i>
+                    <p class="fw-bolder fs-5">Free returns</p>
+                    <p>30 days free returns</p>
+                    <button class="button-hover">Read More<span><i class="fa-solid fa-angle-right"></i></span></button>
+                </div>
+                <div class="col-sm-12 col-lg-4  gy-5 gy-lg-0 d-flex flex-column align-items-center">
+                    <i class="fs-2 pb-3 fa-solid fa-hand-holding-dollar"></i>
+                    <p class="fw-bolder fs-5">Secured payments</p>
+                    <p>We accept all cards</p>
+                    <button class="button-hover">Read More<span><i class="fa-solid fa-angle-right"></i></span></button>
+                </div>
             </div>
-            <p class="description fw-bold pt-5">Keep up to date with our latest news and special offers.</p>
+            
         </div>
+    </div>
+    <div id="section5" class="qualitySection container-fluid py-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class=" col-md-6">
+                    <p class="small-heading quality-heading mt-5">Great Quality!</p>
+                    <p class="card-description fw-light quality-desc desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                        voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
+                        praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi? Illo
+                        reprehenderit dicta dignissimos, deleniti voluptates suscipit! Facilis consequuntur blanditiis omnis
+                        itaque ut deleniti!</p>
+                    <p class="small-heading quality-small-heading">Adam Cross</p>
+                    <p class="card-description fw-light">France</p>
+                </div>
+                <div class=" col-md-6">
+                    <p class="small-heading quality-heading mt-5">Great Quality!</p>
+                    <p class="card-description fw-light quality-desc desc-size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                        voluptatem iure repellat ex autem ipsa rerum incidunt ducimus vel quae dicta sequi cumque voluptatum
+                        praesentium, inventore ipsum temporibus quos cum hic suscipit veritatis exercitationem saepe modi? Illo
+                        reprehenderit dicta dignissimos, deleniti voluptates suscipit! Facilis consequuntur blanditiis omnis
+                        itaque ut deleniti!</p>
+                    <p class="small-heading quality-small-heading">Susan Crossman</p>
+                    <p class="card-description fw-light">Staten Island</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="section6" class="clients container-fluid py-5">
+        <div class="container">
+            <p class="heading text-center">Our Clients</p>
+            <div class="row imgRow">
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/159.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/260.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/361.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/462.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/563.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/159.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/260.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/361.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/462.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/563.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/159.png" alt="">
+                </div>
+                <div class="p-3 p-md-5 p-lg-5 img col-3 col-md-4 col-lg-2"><img class="w-100" src="Images/260.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="section7" class="footer container-fluid bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="mt-3 text-center text-md-start col-md-6  col-lg-3">
+                    <p class="small-heading fw-bold">Contact Info</p>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Phone: +1 (0) 000 0000 001</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Address: Street Name, 33</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">City, AA 09999, Country</a>
+                </div>
+                
+                <div class="mt-3 text-center text-md-start col-md-6  col-lg-3">
+                    <p class="small-heading fw-bold">Get Help</p>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Delivery Information</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Sale Terms & Conditions</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Returns & Refunds</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Privacy Notice</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Shopping FAQ</a>
+                </div>
+                <div class="mt-3 text-center text-md-start col-md-6  col-lg-3">
+                    <p class="small-heading fw-bold">Product Categories</p>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Accessories</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Furniture</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Interior Details</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Decor Elements</a>
+                    <a href="#" class="description footer-link fw-bold text-decoration-none">Design Solutions</a>
+                </div>
+                <div class="mt-3 text-center text-md-start  col-md-6  col-lg-3">
+                    <p class="small-heading">Let's stay in touch</p>
+                    <div class="row g-0">
+                        <input class="footerInput col-md-12 px-4 col-lg-6" type="email" placeholder="Your Email">
+                        <button class="footerButton mx-auto mx-md-0 mt-3 mt-md-0 col-6 col-lg-6">Subscribe</button>
+                    </div>
+                    <p class="description fw-bold footer-link pt-3">Keep up to date with our latest news and special offers.</p>
+                </div>
+            </div>
+        </div>
+        
     </div>
 </body>
 

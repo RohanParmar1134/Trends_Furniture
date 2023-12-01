@@ -41,6 +41,10 @@ html,body{
     bottom: 2px;
 }
 
+.navbar-nav{
+    background-color: white;
+}
+
 li{
     font-weight: bold;
     font-size: 16px;
@@ -107,7 +111,7 @@ button{
 .hero-description{
     font-family: "normal-light";
     font-weight: 500;
-    width: 100%;
+    width: 75%;
     font-size: 24px;
 }
 .address{
@@ -138,7 +142,7 @@ button{
 .designCollection{
     min-height: 400px;
     height: fit-content;
-    margin: 0;
+    /* margin: 0; */
 
 }
 .sec-2-description{
@@ -195,10 +199,13 @@ button{
 
 .medium-heading{
     font-family: "bolder";
-    font-size: 45px;
+    font-size: 40px;
+}
+.element-medium-heading{
+    font-size: 14px;
 }
 .card-description{
-    font-family: "light";
+    /* font-family: "light"; */
     font-weight: 700;
     font-size: 18px;
     width: 75%;
@@ -211,7 +218,7 @@ button{
     max-height: 610px;
 }
 
-.button-hover-hidden-1,.button-hover-hidden-2{
+.button-hover-hidden{
     width: 120px;
     height: 45px;
     background-color: rgb(39, 39, 39);
@@ -220,38 +227,65 @@ button{
     color: white;
     position:absolute;
     left: 10px;
-    bottom: 0px;
+    bottom: 160px;
     transition: all 0.5s;
     opacity: 0;
 }
-.collectionCard-Heading-line-1,.collectionCard-Heading-line-2{
-    transition: all 0.5s;
-}
-.collectionCard-1:hover .collectionCard-Heading-line-1,.collectionCard-2:hover .collectionCard-Heading-line-2{
-    width: 70%;
-    height: 1px;
-    background-color: rgb(211, 173, 104);
-}
+
+
+
 
 .button-hover-hidden-1:hover,.button-hover-hidden-2:hover{
     background-color: black;
 }
-.collectionCard-1:hover .button-hover-hidden-1,.collectionCard-2:hover .button-hover-hidden-2{
-    transform: translateY(-30px);
+.collectionCard-1:hover .button-hover-hidden,.collectionCard-2:hover .button-hover-hidden{
+    transform: translateY(-10px);
     opacity: 1;
 }
+
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(211, 173, 104);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
 .card-desc{
-    height: 100%;
-    max-height: 265px;
+    /* height: 100%; */
+    /* max-height: 265px; */
     /* padding-top: 4rem!important;
     padding-bottom: 4rem!important;  */
-    background-color: rgb(231, 224, 224);
+    /* background-color: rgb(231, 224, 224); */
 }
 .card-text-{
     /* min-height: 300px; */
     /* height: 200px; */
-    /* padding: 3rem 2rem 2rem 2rem;  */
-    background-color: rgb(231, 224, 224);
+    padding: 20px; 
+    /* background-color: rgb(231, 224, 224); */
+    /* height: 50%; */
+
+}
+.cardImg-Sec2{
+    /* height: 50%; */
+    /* width: auto; */
 }
 
 /* !-------------------------------------------- Section-3 ----------------------------------------------------- */
@@ -334,7 +368,7 @@ button{
 
 .footer{
     height: fit-content;
-    background-color: rgb(28, 27, 27);
+    background-color:#26292b;
 }
 .footerInput{
     height: 50px;
@@ -344,10 +378,14 @@ button{
 .footerButton{
     border: 0;
     height: 50px;
-    background-color: rgb(76, 74, 88);
+    background-color: #33363b;
     color: white;
     font-weight: 900;
     font-size: 22px;
+}
+.footer-link{
+    display: block;
+    color:  #a7b9b2;
 }
 
 /* !-------------------------------------------- Media Query 1024 ---------------------------------------------- */
@@ -359,13 +397,19 @@ button{
     .address{
         width: 100%;
     }
-    .card-text-{
-        padding: 2rem 1rem 1rem 2rem; 
-        background-color: rgb(231, 224, 224);
-    }
+    
 }
 
 @media screen and (max-width:768px) {
+    .nav-last{
+        position: relative;
+    }
+    .navbar-nav{
+        padding-left: 20px;
+    }
+    .hero-description{
+        width: 100%;
+    }
     .collectionCard-1{
         /* max-height: 610px; */
         max-height: fit-content;
